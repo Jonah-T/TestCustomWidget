@@ -10,8 +10,8 @@
 		constructor() {
 			super(); 
 			this._shadowRoot = this.attachShadow({mode: "open"});
-            this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
-            this._firstConnection = false;
+            		this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
+            		this._firstConnection = false;
 		}
 
         //Fired when the widget is added to the html DOM of the page
