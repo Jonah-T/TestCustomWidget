@@ -52,7 +52,13 @@
         
         }
         */
+        get widgetText() {
+            return this._tagType;
+        }
 
+        set widgetText(value) {
+            this._tagText = value;
+        }
         redraw(){
             if (this._tagContainer){
                 this._tagContainer.parentNode.removeChild(this._tagContainer);
